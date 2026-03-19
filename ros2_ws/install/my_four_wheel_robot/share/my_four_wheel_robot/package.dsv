@@ -1,0 +1,6 @@
+source;share/my_four_wheel_robot/hook/cmake_prefix_path.dsv
+source;share/my_four_wheel_robot/hook/cmake_prefix_path.sh
+source;share/my_four_wheel_robot/local_setup.bash
+source;share/my_four_wheel_robot/local_setup.dsv
+source;share/my_four_wheel_robot/local_setup.sh
+source;share/my_four_wheel_robot/local_setup.zsh

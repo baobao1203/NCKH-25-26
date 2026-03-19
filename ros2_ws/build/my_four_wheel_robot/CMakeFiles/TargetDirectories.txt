@@ -1,0 +1,9 @@
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/uninstall.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/my_four_wheel_robot_uninstall.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/test.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/edit_cache.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/rebuild_cache.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/list_install_components.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/install.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/install/local.dir
+/home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/install/strip.dir

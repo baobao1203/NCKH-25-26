@@ -1,0 +1,67 @@
+[0.016s] Invoking command in '/home/bao/ros2_ws/build/my_four_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bao/ros2_ws/src/my_four_wheel_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bao/ros2_ws/install/my_four_wheel_robot
+[0.143s] -- The C compiler identification is GNU 13.3.0
+[0.276s] -- The CXX compiler identification is GNU 13.3.0
+[0.301s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.520s] -- Detecting CXX compiler ABI info
+[0.714s] -- Detecting CXX compiler ABI info - done
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.734s] -- Detecting CXX compile features
+[0.735s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.006s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.202s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.267s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.286s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.447s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.451s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.577s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.618s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.752s] -- Found rviz2: 14.1.19 (/opt/ros/jazzy/share/rviz2/cmake)
+[1.756s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[1.759s] -- Found gz_ros2_control: 1.2.17 (/opt/ros/jazzy/share/gz_ros2_control/cmake)
+[2.525s] -- Found diff_drive_controller: 4.36.0 (/opt/ros/jazzy/share/diff_drive_controller/cmake)
+[2.583s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.584s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.585s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.753s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.935s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.935s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.938s] -- Added test 'lint_cmake' to check CMake code style
+[2.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.943s] -- Added test 'xmllint' to check XML markup files
+[2.947s] -- Configuring done (2.9s)
+[2.959s] -- Generating done (0.0s)
+[2.965s] -- Build files have been written to: /home/bao/ros2_ws/build/my_four_wheel_robot
+[2.990s] Invoked command in '/home/bao/ros2_ws/build/my_four_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bao/ros2_ws/src/my_four_wheel_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bao/ros2_ws/install/my_four_wheel_robot
+[2.992s] Invoking command in '/home/bao/ros2_ws/build/my_four_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/ros2_ws/build/my_four_wheel_robot -- -j12 -l12
+[3.064s] Invoked command in '/home/bao/ros2_ws/build/my_four_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/ros2_ws/build/my_four_wheel_robot -- -j12 -l12
+[3.075s] Invoking command in '/home/bao/ros2_ws/build/my_four_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/ros2_ws/build/my_four_wheel_robot
+[3.086s] -- Install configuration: ""
+[3.087s] -- Execute custom install script
+[3.088s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//launch/my_robot_launch.py
+[3.106s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//config/my_controller.yaml
+[3.125s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//urdf/my_robot.urdf.xacro
+[3.146s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot
+[3.165s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot
+[3.185s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/ament_prefix_path.sh
+[3.203s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/ament_prefix_path.dsv
+[3.221s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/path.sh
+[3.241s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/path.dsv
+[3.260s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.bash
+[3.280s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.sh
+[3.297s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.zsh
+[3.314s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.dsv
+[3.336s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/package.dsv
+[3.356s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/packages/my_four_wheel_robot
+[3.374s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/cmake/my_four_wheel_robotConfig.cmake
+[3.394s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/cmake/my_four_wheel_robotConfig-version.cmake
+[3.412s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/package.xml
+[3.430s] Invoked command in '/home/bao/ros2_ws/build/my_four_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/ros2_ws/build/my_four_wheel_robot

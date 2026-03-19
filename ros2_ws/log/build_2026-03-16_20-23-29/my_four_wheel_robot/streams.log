@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/bao/ros2_ws/build/my_four_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/ros2_ws/build/my_four_wheel_robot -- -j12 -l12
+[0.089s] Invoked command in '/home/bao/ros2_ws/build/my_four_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/ros2_ws/build/my_four_wheel_robot -- -j12 -l12
+[0.104s] Invoking command in '/home/bao/ros2_ws/build/my_four_wheel_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/ros2_ws/build/my_four_wheel_robot
+[0.126s] -- Install configuration: ""
+[0.127s] -- Execute custom install script
+[0.128s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//launch/my_robot_launch.py
+[0.129s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//config/my_controller.yaml
+[0.129s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot//urdf/my_robot.urdf.xacro
+[0.130s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot
+[0.131s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot
+[0.131s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/path.sh
+[0.133s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/environment/path.dsv
+[0.133s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.bash
+[0.133s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.sh
+[0.134s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.zsh
+[0.134s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/local_setup.dsv
+[0.134s] -- Symlinking: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/package.dsv
+[0.152s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/ament_index/resource_index/packages/my_four_wheel_robot
+[0.152s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/cmake/my_four_wheel_robotConfig.cmake
+[0.152s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/cmake/my_four_wheel_robotConfig-version.cmake
+[0.152s] -- Up-to-date symlink: /home/bao/ros2_ws/install/my_four_wheel_robot/share/my_four_wheel_robot/package.xml
+[0.156s] Invoked command in '/home/bao/ros2_ws/build/my_four_wheel_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/ros2_ws/build/my_four_wheel_robot
