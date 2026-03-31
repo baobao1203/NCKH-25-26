@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bao/ros2_ws/src/my_four_wheel_robot
+CMAKE_SOURCE_DIR = /home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bao/ros2_ws/build/my_four_wheel_robot
+CMAKE_BINARY_DIR = /home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/bao/ros2_ws/build/my_four_wheel_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bao/ros2_ws/src/my_four_wheel_robot /home/bao/ros2_ws/src/my_four_wheel_robot /home/bao/ros2_ws/build/my_four_wheel_robot /home/bao/ros2_ws/build/my_four_wheel_robot /home/bao/ros2_ws/build/my_four_wheel_robot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot /home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot /home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot /home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot /home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/bao/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/bao/NCKH-25-26/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/bao/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/bao/NCKH-25-26/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/bao/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/bao/NCKH-25-26/ros2_ws/install/my_four_wheel_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/bao/ros2_ws/install/my_four_wheel_robot/${destination}")
+      set(destination "/home/bao/NCKH-25-26/ros2_ws/install/my_four_wheel_robot/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,46 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "config" "urdf" "DESTINATION" "share/my_four_wheel_robot/")
-ament_cmake_symlink_install_directory("/home/bao/ros2_ws/src/my_four_wheel_robot" DIRECTORY "launch" "config" "urdf" "DESTINATION" "share/my_four_wheel_robot/")
+ament_cmake_symlink_install_directory("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" DIRECTORY "launch" "config" "urdf" "DESTINATION" "share/my_four_wheel_robot/")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(DIRECTORY "worlds/" "DESTINATION" "share/my_four_wheel_robot/worlds")
+ament_cmake_symlink_install_directory("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" DIRECTORY "worlds/" "DESTINATION" "share/my_four_wheel_robot/worlds")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/my_four_wheel_robot/environment")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/my_four_wheel_robot/environment")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/my_four_wheel_robot")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_four_wheel_robot")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/my_four_wheel_robot")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/my_four_wheel_robot")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/my_four_wheel_robot")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/packages/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/packages/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/packages/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/packages/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake" "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig-version.cmake" "DESTINATION" "share/my_four_wheel_robot/cmake")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake" "/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig-version.cmake" "DESTINATION" "share/my_four_wheel_robot/cmake")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake" "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig-version.cmake" "DESTINATION" "share/my_four_wheel_robot/cmake")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake" "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig-version.cmake" "DESTINATION" "share/my_four_wheel_robot/cmake")
 
-# install(FILES "/home/bao/ros2_ws/src/my_four_wheel_robot/package.xml" "DESTINATION" "share/my_four_wheel_robot")
-ament_cmake_symlink_install_files("/home/bao/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/ros2_ws/src/my_four_wheel_robot/package.xml" "DESTINATION" "share/my_four_wheel_robot")
+# install(FILES "/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot/package.xml" "DESTINATION" "share/my_four_wheel_robot")
+ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot/package.xml" "DESTINATION" "share/my_four_wheel_robot")

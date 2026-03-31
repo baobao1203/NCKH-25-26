@@ -1,1 +1,1 @@
-/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake
+/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_core/my_four_wheel_robotConfig.cmake

@@ -1,8 +1,8 @@
-# Install script for directory: /home/bao/ros2_ws/src/my_four_wheel_robot
+# Install script for directory: /home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/bao/ros2_ws/install/my_four_wheel_robot")
+  set(CMAKE_INSTALL_PREFIX "/home/bao/NCKH-25-26/ros2_ws/install/my_four_wheel_robot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/bao/ros2_ws/build/my_four_wheel_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bao/ros2_ws/build/my_four_wheel_robot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 # generated from
 # ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
 
-set(install_manifest "/home/bao/ros2_ws/build/my_four_wheel_robot/symlink_install_manifest.txt")
+set(install_manifest "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/symlink_install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find symlink install manifest: ${install_manifest}")
 endif()
