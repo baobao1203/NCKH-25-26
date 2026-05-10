@@ -321,6 +321,9 @@ ament_cmake_symlink_install_directory("/home/bao/NCKH-25-26/ros2_ws/src/my_four_
 # install(DIRECTORY "worlds/" "DESTINATION" "share/my_four_wheel_robot/worlds")
 ament_cmake_symlink_install_directory("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" DIRECTORY "worlds/" "DESTINATION" "share/my_four_wheel_robot/worlds")
 
+# install(PROGRAMS "scripts/ramp_autonomy_node.py" "DESTINATION" "lib/my_four_wheel_robot")
+ament_cmake_symlink_install_programs("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" PROGRAMS "scripts/ramp_autonomy_node.py" "DESTINATION" "lib/my_four_wheel_robot")
+
 # install(FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot" FILES "/home/bao/NCKH-25-26/ros2_ws/build/my_four_wheel_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_four_wheel_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

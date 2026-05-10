@@ -24,6 +24,7 @@ LƯU Ý:
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction
+from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration
 from launch_ros.actions import Node
@@ -51,6 +52,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             DeclareLaunchArgument("use_sim_time", default_value="true"),
+            DeclareLaunchArgument("enable_autonomy", default_value="true"),
             # -------------------------------------------------
             # robot_state_publisher
             # -------------------------------------------------
@@ -99,14 +101,14 @@ def generate_launch_description():
             # -------------------------------------------------
             # Clock bridge
             # -------------------------------------------------
-            # Node(
-            #     package="ros_gz_bridge",
-            #     executable="parameter_bridge",
-            #     name="clock_bridge",
-            #     arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]"],
-            #     parameters=[{"use_sim_time": LaunchConfiguration("use_sim_time")}],
-            #     output="screen",
-            # ),
+            Node(
+                package="ros_gz_bridge",
+                executable="parameter_bridge",
+                name="clock_bridge",
+                arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]"],
+                parameters=[{"use_sim_time": LaunchConfiguration("use_sim_time")}],
+                output="screen",
+            ),
             # -------------------------------------------------
             # Spawn robot
             # -------------------------------------------------
@@ -127,7 +129,7 @@ def generate_launch_description():
                             "-y",
                             "0",
                             "-z",
-                            "0.20",
+                            "0.60",
                         ],
                         output="screen",
                         parameters=[
@@ -238,17 +240,30 @@ def generate_launch_description():
                 ],
             ),
             # -------------------------------------------------
-            # Teleop
+            # Autonomy (Depth + RGB ramp analysis)
             # -------------------------------------------------
-            Node(
-                package="teleop_twist_keyboard",
-                executable="teleop_twist_keyboard",
-                name="teleop",
-                prefix="gnome-terminal --",
-                remappings=[
-                    ("/cmd_vel", "/diff_drive_base_controller/cmd_vel_unstamped")
+            TimerAction(
+                period=16.0,
+                actions=[
+                    Node(
+                        package="my_four_wheel_robot",
+                        executable="ramp_autonomy_node.py",
+                        name="ramp_autonomy",
+                        condition=IfCondition(LaunchConfiguration("enable_autonomy")),
+                        parameters=[
+                            {"use_sim_time": LaunchConfiguration("use_sim_time")},
+                            {"depth_topic": "/camera/depth/image_raw"},
+                            {"rgb_topic": "/camera/rgb/image_raw"},
+                            {"cmd_topic": "/diff_drive_base_controller/cmd_vel"},
+                            {"max_climb_angle_deg": 18.0},
+                        ],
+                        output="screen",
+                    )
                 ],
-                output="screen",
             ),
+            # Teleop nên chạy ở terminal riêng:
+            # ros2 run teleop_twist_keyboard teleop_twist_keyboard \
+            #   --ros-args -p stamped:=true -p frame_id:=base_link \
+            #   -r /cmd_vel:=/diff_drive_base_controller/cmd_vel
         ]
     )

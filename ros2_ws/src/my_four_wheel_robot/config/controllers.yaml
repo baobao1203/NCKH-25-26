@@ -20,4 +20,4 @@ diff_drive_base_controller:
     base_frame_id: "base_link"
     enable_odom_tf: true
     open_loop: true
-    use_stamped_vel: false
+    use_stamped_vel: true

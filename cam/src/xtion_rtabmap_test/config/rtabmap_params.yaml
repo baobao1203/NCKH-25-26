@@ -1,0 +1,67 @@
+rgbd_sync:
+  ros__parameters:
+    approx_sync: true
+    topic_queue_size: 30
+    sync_queue_size: 30
+    qos: 2
+    qos_camera_info: 2
+    use_sim_time: false
+
+rgbd_odometry:
+  ros__parameters:
+    frame_id: camera_link
+    odom_frame_id: odom
+    publish_tf: true
+    approx_sync: true
+    approx_sync_max_interval: 0.01
+    topic_queue_size: 30
+    sync_queue_size: 30
+    qos: 2
+    qos_camera_info: 2
+    subscribe_rgbd: false
+    subscribe_rgb: true
+    subscribe_depth: true
+    Odom/Strategy: "0"
+    Odom/GuessMotion: "true"
+    Odom/FillInfoData: "true"
+    Vis/MinInliers: "15"
+    Vis/MinDepth: "0.2"
+    GFTT/MinDistance: "5"
+    GFTT/QualityLevel: "0.00001"
+
+rtabmap:
+  ros__parameters:
+    frame_id: camera_link
+    map_frame_id: map
+    use_sim_time: false
+
+    subscribe_rgbd: false
+    subscribe_depth: true
+    subscribe_rgb: true
+    approx_sync: true
+    approx_sync_max_interval: 0.01
+    topic_queue_size: 30
+    sync_queue_size: 30
+    qos_image: 2
+    qos_odom: 2
+    qos_camera_info: 2
+
+    Grid/FromDepth: "true"
+    Grid/3D: "true"
+    Grid/RangeMax: "5.0"
+    Grid/CellSize: "0.05"
+    RGBD/CreateOccupancyGrid: "true"
+    Reg/Strategy: "0"
+    Reg/Force3DoF: "false"
+
+rtabmap_viz:
+  ros__parameters:
+    frame_id: camera_link
+    subscribe_rgbd: false
+    subscribe_depth: true
+    subscribe_rgb: true
+    approx_sync: true
+    approx_sync_max_interval: 0.01
+    qos: 2
+    qos_camera_info: 2
+    use_sim_time: false

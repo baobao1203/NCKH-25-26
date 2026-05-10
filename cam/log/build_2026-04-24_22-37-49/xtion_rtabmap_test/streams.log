@@ -1,0 +1,20 @@
+[0.841s] Invoking command in '/home/bao/NCKH-25-26/cam/src/xtion_rtabmap_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xtion_rtabmap_test build --build-base /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/build install --record /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/install.log --single-version-externally-managed install_data
+[1.091s] running egg_info
+[1.107s] writing ../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/dependency_links.txt
+[1.107s] writing requirements to ../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/requires.txt
+[1.107s] writing top-level names to ../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/top_level.txt
+[1.139s] reading manifest file '../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/SOURCES.txt'
+[1.139s] writing manifest file '../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/SOURCES.txt'
+[1.139s] running build
+[1.139s] running build_py
+[1.140s] running install
+[1.146s] running install_lib
+[1.164s] running install_data
+[1.164s] copying config/rtabmap_params.yaml -> /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/xtion_rtabmap_test/config
+[1.164s] running install_egg_info
+[1.183s] removing '/home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages/xtion_rtabmap_test-0.0.0-py3.12.egg-info' (and everything under it)
+[1.183s] Copying ../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info to /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages/xtion_rtabmap_test-0.0.0-py3.12.egg-info
+[1.184s] running install_scripts
+[1.342s] writing list of installed files to '/home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/install.log'
+[1.496s] Invoked command in '/home/bao/NCKH-25-26/cam/src/xtion_rtabmap_test' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xtion_rtabmap_test build --build-base /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/build install --record /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing xtion_rtabmap_test.egg-info/PKG-INFO
+writing dependency_links to xtion_rtabmap_test.egg-info/dependency_links.txt
+writing requirements to xtion_rtabmap_test.egg-info/requires.txt
+writing top-level names to xtion_rtabmap_test.egg-info/top_level.txt
+reading manifest file 'xtion_rtabmap_test.egg-info/SOURCES.txt'
+writing manifest file 'xtion_rtabmap_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages/xtion-rtabmap-test.egg-link (link to .)
+
+Installed /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test
+running symlink_data

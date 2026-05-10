@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/PKG-INFO
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/SOURCES.txt
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/dependency_links.txt
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/requires.txt
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/top_level.txt
+../../build/xtion_rtabmap_test/xtion_rtabmap_test.egg-info/zip-safe
+config/rtabmap_params.yaml
+launch/xtion_rtabmap.launch.py
+resource/xtion_rtabmap_test
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+xtion_rtabmap_test/__init__.py

@@ -1,1 +1,0 @@
-/home/bao/NCKH-25-26/ros2_ws/src/my_four_wheel_robot/worlds/install/_local_setup_util_sh.py

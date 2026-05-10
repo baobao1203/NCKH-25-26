@@ -1,0 +1,1 @@
+/home/bao/NCKH-25-26/cam/src/xtion_rtabmap_test/launch/xtion_rtabmap.launch.py

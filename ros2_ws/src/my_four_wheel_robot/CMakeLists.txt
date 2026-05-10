@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(rviz2 REQUIRED)
 find_package(xacro REQUIRED)
 find_package(gz_ros2_control REQUIRED)
@@ -32,5 +33,9 @@ install(DIRECTORY
 )
 install(DIRECTORY worlds/
   DESTINATION share/${PROJECT_NAME}/worlds
+)
+install(PROGRAMS
+  scripts/ramp_autonomy_node.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()

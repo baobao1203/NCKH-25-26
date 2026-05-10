@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating xtion_rtabmap_test.egg-info
+writing xtion_rtabmap_test.egg-info/PKG-INFO
+writing dependency_links to xtion_rtabmap_test.egg-info/dependency_links.txt
+writing requirements to xtion_rtabmap_test.egg-info/requires.txt
+writing top-level names to xtion_rtabmap_test.egg-info/top_level.txt
+writing manifest file 'xtion_rtabmap_test.egg-info/SOURCES.txt'
+reading manifest file 'xtion_rtabmap_test.egg-info/SOURCES.txt'
+writing manifest file 'xtion_rtabmap_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/lib/python3.12/site-packages/xtion-rtabmap-test.egg-link (link to .)
+
+Installed /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test
+running symlink_data
+creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/ament_index
+creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/ament_index/resource_index
+creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/ament_index/resource_index/packages
+symbolically linking /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/resource/xtion_rtabmap_test -> /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/ament_index/resource_index/packages
+symbolically linking /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/package.xml -> /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/xtion_rtabmap_test
+creating /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/xtion_rtabmap_test/launch
+symbolically linking /home/bao/NCKH-25-26/cam/build/xtion_rtabmap_test/launch/xtion_rtabmap.launch.py -> /home/bao/NCKH-25-26/cam/install/xtion_rtabmap_test/share/xtion_rtabmap_test/launch
