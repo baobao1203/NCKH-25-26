@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot
+-- Install configuration: ""
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/config
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/config/controllers.yaml
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/bringup.launch.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch_fix.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/rtab_map.launch.cpython-312.pyc
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/bringup.launch.cpython-312.pyc
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/rviz
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/rviz/six_ws_view.rviz
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/six_ws_robot.xacro
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/worlds
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/worlds/custom_empty.sdf
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/six_ws_teleop_controller.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/traction_manager.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/wheel_status_visualizer.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/hybrid_odometry_publisher.py
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/package_run_dependencies/six_ws_robot
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/parent_prefix_path/six_ws_robot
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/ament_prefix_path.sh
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/path.sh
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/path.dsv
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.bash
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.sh
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.zsh
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.dsv
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/package.dsv
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/packages/six_ws_robot
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/cmake/six_ws_robotConfig.cmake
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/cmake/six_ws_robotConfig-version.cmake
+-- Installing: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/package.xml

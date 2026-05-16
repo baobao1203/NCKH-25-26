@@ -123,10 +123,18 @@
     <origin xyz="${camera_offset_x} 0 ${camera_offset_z}" rpy="0 0 0"/>
   </joint>
 
+  <!-- Optical frame: Z forward, X right, Y down (camera convention) -->
+  <link name="camera_optical_link"/>
+  <joint name="camera_optical_joint" type="fixed">
+    <parent link="camera_link"/>
+    <child link="camera_optical_link"/>
+    <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+  </joint>
+
   <gazebo reference="camera_link">
     <sensor name="rgb_camera" type="camera">
       <always_on>true</always_on>
-      <update_rate>30</update_rate>
+      <update_rate>15</update_rate>
       <visualize>true</visualize>
       <topic>camera/rgb/image_raw</topic>
       <camera name="rgb">
@@ -140,6 +148,7 @@
           <near>0.05</near>
           <far>50.0</far>
         </clip>
+        <optical_frame_id>camera_optical_link</optical_frame_id>
       </camera>
     </sensor>
 
@@ -158,10 +167,11 @@
           <near>0.05</near>
           <far>20.0</far>
         </clip>
+        <optical_frame_id>camera_optical_link</optical_frame_id>
       </camera>
     </sensor>
   </gazebo>
-
+  <!-- IMU Link              
   <link name="imu_link">
     <visual>
       <geometry>
@@ -192,7 +202,7 @@
       <topic>imu</topic>
       <imu/>
     </sensor>
-  </gazebo>
+  </gazebo> -->
 
   <ros2_control name="GazeboSimSystem" type="system">
     <hardware>

@@ -4,7 +4,11 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, RegisterEventHandler
+from launch.actions import (
+    DeclareLaunchArgument,
+    IncludeLaunchDescription,
+    RegisterEventHandler,
+)
 from launch.event_handlers import OnProcessExit
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, FindExecutable, LaunchConfiguration
@@ -78,14 +82,14 @@ def generate_launch_description():
         parameters=[{"use_sim_time": use_sim_time}],
     )
 
-    imu_bridge = Node(
-        package="ros_gz_bridge",
-        executable="parameter_bridge",
-        output="screen",
-        arguments=["/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"],
-        remappings=[("/imu", "/imu/data")],
-        parameters=[{"use_sim_time": use_sim_time}],
-    )
+    # imu_bridge = Node(
+    #     package="ros_gz_bridge",
+    #     executable="parameter_bridge",
+    #     output="screen",
+    #     arguments=["/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"],
+    #     remappings=[("/imu", "/imu/data")],
+    #     parameters=[{"use_sim_time": use_sim_time}],
+    # )
 
     rgb_bridge = Node(
         package="ros_gz_image",
@@ -172,12 +176,12 @@ def generate_launch_description():
         parameters=[{"use_sim_time": use_sim_time}],
     )
 
-    status_visualizer = Node(
-        package="six_ws_robot",
-        executable="wheel_status_visualizer.py",
-        output="screen",
-        parameters=[{"use_sim_time": use_sim_time}],
-    )
+    # status_visualizer = Node(
+    #     package="six_ws_robot",
+    #     executable="wheel_status_visualizer.py",
+    #     output="screen",
+    #     parameters=[{"use_sim_time": use_sim_time}],
+    # )
 
     return LaunchDescription(
         [
@@ -186,7 +190,6 @@ def generate_launch_description():
             rviz,
             gazebo,
             clock_bridge,
-            imu_bridge,
             rgb_bridge,
             depth_bridge,
             rgb_info_bridge,
@@ -206,6 +209,5 @@ def generate_launch_description():
             spawn_robot,
             teleop,
             traction,
-            status_visualizer,
         ]
     )

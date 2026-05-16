@@ -1,5 +1,8 @@
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/config/controllers.yaml
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/bringup.launch.py
+/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch_fix.py
+/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch.py
+/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/rtab_map.launch.cpython-312.pyc
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/bringup.launch.cpython-312.pyc
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/rviz/six_ws_view.rviz
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/six_ws_robot.xacro
@@ -7,6 +10,7 @@
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/six_ws_teleop_controller.py
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/traction_manager.py
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/wheel_status_visualizer.py
+/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/hybrid_odometry_publisher.py
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/package_run_dependencies/six_ws_robot
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/parent_prefix_path/six_ws_robot
 /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/ament_prefix_path.sh

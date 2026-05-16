@@ -56,6 +56,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/bao/NCKH-25-26/Rocker-Bogie/src/scripts/six_ws_teleop_controller.py"
     "/home/bao/NCKH-25-26/Rocker-Bogie/src/scripts/traction_manager.py"
     "/home/bao/NCKH-25-26/Rocker-Bogie/src/scripts/wheel_status_visualizer.py"
+    "/home/bao/NCKH-25-26/Rocker-Bogie/src/scripts/hybrid_odometry_publisher.py"
     )
 endif()
 
