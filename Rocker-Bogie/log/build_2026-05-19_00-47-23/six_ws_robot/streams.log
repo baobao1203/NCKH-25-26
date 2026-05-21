@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bao/NCKH-25-26/Rocker-Bogie/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot
+[0.075s] -- The C compiler identification is GNU 13.3.0
+[0.125s] -- The CXX compiler identification is GNU 13.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.224s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.593s] -- Configuring done (0.6s)
+[0.595s] -- Generating done (0.0s)
+[0.596s] -- Build files have been written to: /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot
+[0.600s] Invoked command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bao/NCKH-25-26/Rocker-Bogie/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot
+[0.601s] Invoking command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot -- -j12 -l12
+[0.632s] Invoked command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot -- -j12 -l12
+[0.640s] Invoking command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot
+[0.646s] -- Install configuration: ""
+[0.646s] -- Execute custom install script
+[0.646s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/config/controllers.yaml
+[0.654s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/bringup.launch.cpython-312.pyc
+[0.661s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/__pycache__/rtab_map.launch.cpython-312.pyc
+[0.668s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/bringup.launch.py
+[0.674s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch.py
+[0.681s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/launch/rtab_map.launch_fix.py
+[0.688s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/rviz/six_ws_robot.xacro
+[0.695s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/rviz/six_ws_view.rviz
+[0.701s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/urdf/six_ws_robot.xacro
+[0.708s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/worlds/custom_empty.sdf
+[0.716s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/six_ws_teleop_controller.py
+[0.722s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/traction_manager.py
+[0.729s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/wheel_status_visualizer.py
+[0.736s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/lib/six_ws_robot/hybrid_odometry_publisher.py
+[0.744s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/package_run_dependencies/six_ws_robot
+[0.751s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/parent_prefix_path/six_ws_robot
+[0.757s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/ament_prefix_path.sh
+[0.764s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/ament_prefix_path.dsv
+[0.771s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/path.sh
+[0.777s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/environment/path.dsv
+[0.784s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.bash
+[0.791s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.sh
+[0.798s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.zsh
+[0.805s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/local_setup.dsv
+[0.813s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/package.dsv
+[0.820s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/ament_index/resource_index/packages/six_ws_robot
+[0.827s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/cmake/six_ws_robotConfig.cmake
+[0.834s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/cmake/six_ws_robotConfig-version.cmake
+[0.841s] -- Symlinking: /home/bao/NCKH-25-26/Rocker-Bogie/install/six_ws_robot/share/six_ws_robot/package.xml
+[0.849s] Invoked command in '/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot

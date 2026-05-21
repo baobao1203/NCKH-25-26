@@ -1,2 +1,1 @@
-source;share/six_ws_robot/environment/ament_prefix_path.sh
-source;share/six_ws_robot/environment/path.sh
+/home/bao/NCKH-25-26/Rocker-Bogie/build/six_ws_robot/ament_cmake_environment_hooks/local_setup.dsv
